@@ -33,4 +33,4 @@ Beispiel:
 Öffne einfach ein PowerShell Fenster mit Adminrechten.  
 `wsl --list --verbose`  
 Du bekommst alle installierten Linux Instanzen angezeigt.  
-`wsl -t Debian`  beendet die Debian Instanz.  
+`wsl --terminate Debian`  beendet die Debian Instanz.  
