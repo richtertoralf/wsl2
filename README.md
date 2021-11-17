@@ -28,3 +28,9 @@ Beispiel:
 `sudo apt install obs-studio`  
 **OBS Studio starten:**  
 `obs`  
+
+**Wie beende ich eine Linux Instanz?**
+Öffne einfach ein PowerShell Fenster mit Adminrechten.  
+`wsl --list --verbose`  
+Du bekommst alle installierten Linux Instanzen angezeigt.  
+`wsl -t Debian`  beendet die Debian Instanz.  
