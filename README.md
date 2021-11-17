@@ -1,9 +1,9 @@
-# wsl2
+# wsl2 mit GUI
 getestet 11/2021 mit Windows 11  
 > Infos gibt es hier: https://github.com/microsoft/wslg/  
 * starte Windows PowerShell und aktualisiere WSL mit:   
 `wsl --update`  
-* lass dir die verfügbaren Linus Distributionen anzeigen:  
+* lass dir die im Microsoft Store verfügbaren und einfach installierbaren Linux Distributionen anzeigen:  
 `wsl --list --online`  
 (Stand 17.11.2021)   
 ```
@@ -21,3 +21,10 @@ Ubuntu-18.04    Ubuntu 18.04 LTS
 Ubuntu-20.04    Ubuntu 20.04 LTS
 ```
 
+Beispiel:  
+`wsl --install -d Debian`  
+**Debian wird jetzt automatisch installiert und gestartet**  
+`sudo apt update -y && sudo apt upgrade -y`  
+`sudo apt install obs-studio`  
+**OBS Studio starten:**  
+`obs`  
