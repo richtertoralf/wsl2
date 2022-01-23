@@ -36,7 +36,8 @@ Du bekommst alle installierten Linux Instanzen angezeigt.
 `wsl --terminate Debian`  beendet die Debian Instanz.  
 
 ### wsl1 oder wsl2 nutzen?
-`wsl --set-default-version 2`
-`wsl --set-default-version 1`
-`wsl --set-version <distro_name> 2` 
+WSL 1 und WSL 2 nutzen unterschiedliche Virtualisierungen und unterscheiden sich in der Architektur. Je nach Anwendungsfall macht die eine oder andere Version Sinn.  
+`wsl --set-default-version 2`  
+`wsl --set-default-version 1`  
+`wsl --set-version <distro_name> 2`  
 `wsl --list --verbose` 
