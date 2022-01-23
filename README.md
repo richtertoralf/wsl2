@@ -42,7 +42,7 @@ WSL 1 und WSL 2 nutzen unterschiedliche Virtualisierungen und unterscheiden sich
 `wsl --set-version <distro_name> 2`  
 `wsl --list --verbose` 
 
-### Zugriff von WSL 2 zu Windows
+### Zugriff von WSL 2 zu Windows (Stand 01/2022)
 In Windows ist im Gegensatz zu Linux die Firewall standartgemäß aktiviert und verhindert z.B. einen Ping von WSL zum Windows Host. Eine Lösung ist:
 **Powerschell als Admin öffnen und:**
 `PS C:\WINDOWS\system32> New-NetFirewallRule -DisplayName "WSL" -Direction Inbound  -InterfaceAlias "vEthernet (WSL)"  -Action Allow`  
