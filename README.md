@@ -34,3 +34,9 @@ Beispiel:
 `wsl --list --verbose`  
 Du bekommst alle installierten Linux Instanzen angezeigt.  
 `wsl --terminate Debian`  beendet die Debian Instanz.  
+
+### wsl1 oder wsl2 nutzen?
+`wsl --set-default-version 2`
+`wsl --set-default-version 1`
+`wsl --set-version <distro_name> 2` 
+`wsl --list --verbose` 
