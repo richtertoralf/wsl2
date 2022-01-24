@@ -50,6 +50,7 @@ In Windows ist im Gegensatz zu Linux die Firewall standartgemäß aktiviert und 
 **Powerschell als Admin öffnen und:**
 `PS C:\WINDOWS\system32> New-NetFirewallRule -DisplayName "WSL" -Direction Inbound  -InterfaceAlias "vEthernet (WSL)"  -Action Allow`  
 
+Im Folgenden will ich SRT Videostreams mit srt-live-transmit unter OS Ubuntu Core 20.04 empfangen, Statistikdaten in einer Datenbank erfassen und in einer Webanwendung darstellen und den Videostream, als UDP-Stream, dann an Windows 11 weitergeben, um ihn dann dort in OBS-Studio weiterzubearbeiten.  
 --- 
 Das Folgende gehört eigentlich in ein anderes Repositorie:  
 ### SRT-Tools installieren
