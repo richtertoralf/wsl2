@@ -1,6 +1,9 @@
 # wsl2 mit GUI
-getestet 11/2021 mit Windows 11  
-> Infos gibt es hier: https://github.com/microsoft/wslg/  
+getestet 11/2021 mit Windows 11 Home  
+>Achtung: Nachdem WSL2 aktiviert wurde, funktionierten danach einige virtuelle Maschinen mit GUI in Oracle VirtualBox (mit den Versionen 6.1.26 bis 32 erlebt) nicht mehr.  
+>In Windows mussten danach in der Systemsteuerung unter "Windows-Features aktivieren oder deaktivieren" die Häkchen bei "Windows-Hypervisor-Plattform" und "Windows-Subsystem für Linux" entfernt und der Rechner neu gestartet werden. Erst danach funktionierten die virtuellen Linux Maschinen mit GUI, z.B. Ubuntu 20.04 Gnome, wieder.  
+
+> Infos zu WSL2 mit GUI gibt es hier: https://github.com/microsoft/wslg/  
 * starte Windows PowerShell und aktualisiere WSL mit:   
 `wsl --update`  
 * lass dir die im Microsoft Store verfügbaren und einfach installierbaren Linux Distributionen anzeigen:  
