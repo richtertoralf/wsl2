@@ -31,6 +31,7 @@ Beispiel:
 `sudo apt install obs-studio`  
 **OBS Studio starten:**  
 `obs`  
+>Aktuell (12/2021) wird aus den Debian Paketquellen eine mehrere Monate ältere Version von OBS-Studio installiert, die für mich nicht ausreichte und im Vergleich zur aktuellen Windows-Variante einige Nachteile hat. Interessant fand ich aber, das in Linux unter Windows auch anspruchsvolle Desktopanwendungen laufen.   
 
 **Wie beende ich eine Linux Instanz?**
 Öffne einfach ein PowerShell Fenster mit Adminrechten.  
@@ -50,7 +51,7 @@ In Windows ist im Gegensatz zu Linux die Firewall standartgemäß aktiviert und 
 **Powerschell als Admin öffnen und:**
 `PS C:\WINDOWS\system32> New-NetFirewallRule -DisplayName "WSL" -Direction Inbound  -InterfaceAlias "vEthernet (WSL)"  -Action Allow`  
 
-Im Folgenden will ich SRT Videostreams mit srt-live-transmit unter OS Ubuntu Core 20.04 empfangen, Statistikdaten in einer Datenbank erfassen und in einer Webanwendung darstellen und den Videostream, als UDP-Stream, dann an Windows 11 weitergeben, um ihn dann dort in OBS-Studio weiterzubearbeiten. Deshalb muss die Windows Firewall für WSL geöffnet werden.    
+Im Folgenden will ich über ein eigenes VPN (WireGuard), SRT-Videostreams mit srt-live-transmit unter OS Ubuntu Core 20.04 empfangen, Statistikdaten in einer Datenbank erfassen und in einer Webanwendung darstellen und den Videostream, als UDP-Stream, dann an Windows 11 weitergeben, um ihn dann dort in OBS-Studio weiterzubearbeiten. Deshalb muss die Windows Firewall für WSL geöffnet werden.    
 
 --- 
 Das Folgende gehört eigentlich in ein anderes Repositorie:  
